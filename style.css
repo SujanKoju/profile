@@ -4,8 +4,11 @@
 .heading{
     text-align: center;
     color: rgb(39, 39, 172);
+   font-size: 60px;
 }
-
+hr{
+    color: lavender;
+}
 h2{
     color: rgb(23, 79, 184);
 }
