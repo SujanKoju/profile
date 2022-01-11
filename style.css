@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(163, 163, 163);
+}
+.heading{
+    text-align: center;
+    color: rgb(39, 39, 172);
+}
+
+h2{
+    color: rgb(23, 79, 184);
+}
+
+h3{
+    text-align: center;
+}
+.characters{
+    color: rgb(89, 0, 253);
+    font-weight: bolder;
+}
+a{
+    color: firebrick;
+}
+
+.mood{
+    border-radius: 20px;
+    height: 250px;
+    width:250px;
+}
