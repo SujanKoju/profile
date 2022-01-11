@@ -13,8 +13,14 @@ h2{
     color: rgb(23, 79, 184);
 }
 
+h2:first-letter{
+    font-size: 2rem;
+    }
 h3{
     text-align: center;
+}
+h3:first-letter{
+font-size: 2rem;
 }
 .characters{
     color: rgb(89, 0, 253);
@@ -22,6 +28,10 @@ h3{
 }
 a{
     color: firebrick;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .mood{
@@ -29,3 +39,27 @@ a{
     height: 250px;
     width:250px;
 }
+
+dt{
+    color: rgb(231, 231, 6);
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+dd{
+    font-family: monospace;
+}
+
+ol.movie{
+    counter-reset: a 3;
+    list-style-type: none;
+}
+
+ol.movie li:before {
+    content: counter(a)'.';
+    counter-increment: a -1;
+    position: absolute;   
+    left: 0;   
+    color: blue;   
+    font-size: 4rem;
+  }
