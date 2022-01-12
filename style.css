@@ -38,6 +38,9 @@ a:hover{
     border-radius: 20px;
     height: 250px;
     width:250px;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 dt{
