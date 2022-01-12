@@ -1,0 +1,35 @@
+h1.title{
+    color: rgb(223, 128, 5);
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(239, 252, 253);
+}
+h2{
+    color: rgb(223, 128, 5);
+    text-decoration: underline;
+    background-color: rgb(239, 252, 253);
+    letter-spacing: 0.15em;
+}
+
+body{
+    background-image: url("silverware.jpg");
+    background-attachment: fixed;
+}
+
+div.comment{
+    background-color: burlywood;
+}
+
+
+.no-bullets-ul{
+    list-style-type:none;
+    text-align: left;
+}
+a.link{
+    color: rgb(250, 164, 103);
+    text-decoration: underline;
+}
+
+div.footer{
+    text-align: right;
+}

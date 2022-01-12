@@ -49,17 +49,3 @@ dt{
 dd{
     font-family: monospace;
 }
-
-ol.movie{
-    counter-reset: a 3;
-    list-style-type: none;
-}
-
-ol.movie li:before {
-    content: counter(a)'.';
-    counter-increment: a -1;
-    position: absolute;   
-    left: 0;   
-    color: blue;   
-    font-size: 4rem;
-  }
