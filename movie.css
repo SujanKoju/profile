@@ -38,6 +38,10 @@ dt{
 .no-bullets{
     list-style-type:none;
 }
+dl{
+    padding: 10px;
+}
+
 span.percentage{
     font-size: 48pt;
     font-weight: bold;
@@ -55,4 +59,19 @@ q{
 }
 img.reviewer{
     float: left;
+}
+
+.review{
+    background-color: #E8DC9B;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.reviewer_whole{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
 }
