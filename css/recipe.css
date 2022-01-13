@@ -12,7 +12,7 @@ h2{
 }
 
 body{
-    background-image: url("silverware.jpg");
+    background-image: url("../img/silverware.jpg");
     background-attachment: fixed;
 }
 
