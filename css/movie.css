@@ -82,3 +82,8 @@ img.reviewer{
 .review_whole{
     width: 50%;
 }
+.review-top{
+    background-image: url(../img/rbg.png);
+    background-repeat: repeat-x;
+    display: flex;
+}

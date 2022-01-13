@@ -1,0 +1,25 @@
+input{
+    margin: 5px;
+}
+
+.red-font-text{
+    color: red;
+}
+
+fieldset{
+    background-color: rgb(190, 221, 231);
+}
+
+label{
+    font-weight: bolder;
+}
+
+#submit-button{
+    font-weight: bolder;
+    background-color: rgb(250, 211, 218);
+}
+
+legend{
+    border: 2px solid rgb(37, 37, 37);
+    background-color: whitesmoke;
+}

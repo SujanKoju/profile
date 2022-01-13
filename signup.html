@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/signup.css" rel="stylesheet">
     <title>Sign up</title>
+  
 </head>
 <body>
+    <form id="sign-up-form" action="http://mumstudents.org/params.php">
+        <fieldset>
+            <legend>New User Signup:</legend>
 
+            <label for="name">Name:</label> 
+            <input type="text" name="name" id="name" placeholder="Enter name" maxlength="16" size="16">
+            <br/>
+
+            <label for="gender">Gender:</label> 
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label> 
+            <input type="radio" id="female" name="gender" value="Female" checked/>
+            <label for="female">Female</label> 
+            <br/>
+
+            <label for="age">Age:</label> 
+            <input type="text" id="age" name="age" placeholder="Enter age" maxlength="2" size="6">
+            <br/>
+
+            <label for="personality-type">Personality type:</label> 
+            <input type="text" id="personality-type" name="personality-type" maxlength="4" size="6">
+            <label for="personality-type">(<label class="red-font-text">Dont't know your type?</label>)</label> 
+            <br/>
+
+            <label for="favourite-os">Favorite OS:</label> 
+            <select id="favourite-os" name="fav-os">
+                <option value="windows" selected>Windows</option>
+                <option value="mac-os">Mac OS</option>
+                <option value="linux">Linux</option>
+            </select> 
+        </br>   
+
+            <label>Seeking age:</label> 
+            <input type="text" id="min" name="min-age" placeholder="min" maxlength="2" size="6">
+            <label>to</label> 
+            <input type="text" id="max" name="max-age" placeholder="min" maxlength="2" size="6">
+    </br>
+        <input id="submit-button" type="submit" value="Sign Up"/>
+
+        </fieldset>
+    </form>
 </body>
 </html>
