@@ -28,6 +28,7 @@ h1.tmnt{
 .overview{
     width: 250px;
     float: right;
+    height: 100%;
     background: #A2B964;
     font-size: 8pt;
     font-family: Arial , sans-serif;
@@ -86,4 +87,20 @@ img.reviewer{
     background-image: url(../img/rbg.png);
     background-repeat: repeat-x;
     display: flex;
+}
+
+.banner-top{
+    background-image: url(../img/bannerbg.png);
+    background-repeat: repeat-x;
+    display: flex;
+}
+
+p#footer{
+    background: #A2B964;
+    margin-top: 279px;
+    font-size: large;
+}
+
+.validator{
+    float: right;
 }
