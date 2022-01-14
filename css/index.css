@@ -1,3 +1,10 @@
 body{
-    background-image:url("../img/background.png")   
+    background-image:url("../img/grade-back.jpg")   
+}
+
+form{
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    background-color: rgb(247, 247, 162);
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/signup.css" rel="stylesheet">
+    <link href="css/grades.css" rel="stylesheet">
     <title>Retrieve Grade</title>
   
 </head>
@@ -13,15 +13,18 @@
         <fieldset>
             <legend>Retrieve Grade:</legend>
 
+
+            <div class="d-flex">
             <label for="name">Student Name:</label> 
             <input type="text" name="name" id="name" placeholder="Enter name" maxlength="16" size="16">
-            <br/>
-
+</div>
+<div class="d-flex">
             <label for="student-id">Student ID:</label> 
             <input type="text" name="id" id="student-id" placeholder="Enter student id" maxlength="16" size="16">
-            <br/>
-
+        </div>
+        <div class="d-flex">
             <label >Entry:</label> 
+          <div>
             <input type="radio" id="februrary" name="entry" value="february"checked />
             <label for="februrary">February</label> 
             <input type="radio" id="may" name="entry" value="may" />
@@ -30,9 +33,13 @@
             <label for="august">August</label> 
             <input type="radio" id="november" name="entry" value="november" />
             <label for="november">November</label> 
-            <br/>
+        </div>
+        </div>
 
+
+        <div class="d-flex">
             <label for="assignments">Assignment:</label> 
+           <div>
             <select id="assignments" name="assignment">
                 <option value="assignment1" selected>Assignment 1</option>
                 <option value="assignment2">Assignment 2</option>
@@ -40,11 +47,14 @@
                 <option value="assignment4">Assignment 4</option>
                 <option value="assignment5">Assignment 5</option>
             </select> 
-        </br>   
+        </div>
+    </div>
 
-       <input type="checkbox" id="confirmation" name="confirm">
+    <div class="d-flex">
+      <div> <input type="checkbox" id="confirmation" name="confirm">
        <label for="confirmation">I confirm , I am looking up for my own grade</label>
-    </br> 
+      </div>
+    </div>
         <input id="submit-button" type="submit" value="Retrieve"/>
 
         </fieldset>
