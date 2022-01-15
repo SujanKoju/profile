@@ -3,8 +3,37 @@ body{
 }
 
 form{
-    margin: 0 auto;
-    width: 600px;
-    padding: 1em;
+    margin: 0px auto;
+    width: 30%;
+    padding: 2em;
     background-color: rgb(247, 247, 162);
+}
+
+li{
+    margin-bottom: 24px;
+    font-family: system-ui;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+img#profile-pic{
+    height: 80%;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+#pic-flex{
+    width: 50%;
+}
+#labs{
+    margin-left: 50px;
+}
+#validator{
+    float: right;
 }
