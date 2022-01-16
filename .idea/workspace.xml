@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/decoratemytext.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorate-my-text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/decoratemytext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timer-exercise.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorate-my-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/decorate-my-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/decoratemytext.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/decoratemytext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <workItem from="1642190881845" duration="3535000" />
       <workItem from="1642212267505" duration="691000" />
       <workItem from="1642349605031" duration="3298000" />
-      <workItem from="1642360962716" duration="4211000" />
+      <workItem from="1642360962716" duration="5546000" />
     </task>
     <servers />
   </component>

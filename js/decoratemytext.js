@@ -4,6 +4,12 @@ function initializeAllHandlers() {
     let button = document.getElementById("bigger");
     button.onclick = clickListener;
 
+    let igpayButton = document.getElementById("igpay");
+    igpayButton.onclick = igpayButtonListener;
+
+    let malkovitchButton = document.getElementById("malkovitch");
+    malkovitchButton.onclick = malkovitchButtonListener;
+
     let checkBox = document.getElementById("bling");
     checkBox.onchange = blingFunctionality;
 }
@@ -20,6 +26,32 @@ function increaseFontSize() {
     } else {
         textArea.style.fontSize = parseInt(fontSize) + 2 + "px";
     }
+}
+
+function igpayButtonListener() {
+    let textArea = document.getElementById("textarea");
+    let str = textArea.value;
+    let strArr = str.split(' ');
+    let pigLatin = [];
+    for (let word of strArr) {
+        if ((/([a-zA-Z])/).test(word)) {
+            pigLatin.push(word.substring(1) + word[0] + "ay");
+        } else {
+            pigLatin.push(word);
+        }
+    }
+    textArea.value = pigLatin.join(" ");
+}
+
+function malkovitchButtonListener() {
+    let textArea = document.getElementById("textarea");
+    let text = textArea.value;
+    let words = text.split(' ');
+    let malkovich = [];
+    for (let word of words) {
+        if (word.length >= 5) malkovich.push('Malkovich'); else malkovich.push(word);
+    }
+    textArea.value = malkovich.join(" ");
 }
 
 function blingFunctionality() {
