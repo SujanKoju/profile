@@ -16,6 +16,9 @@ var y = myfunc;
 alert(x);
 alert(y(2,3));
 
+output : alert(x);  Alert display will appear with value 6
+output : alert(y(2,3));  Alert display will appear with value 6
+
 ------------------------------------------------------------------------------------------------------------------------
 
 3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
@@ -35,3 +38,25 @@ setTimeout(booyah1, 2000);
 
 4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
 for using it)?
+
+Unobtrusive Javascript is the best practise of attaching javascript to the front-end of the website.
+It focuses on separation of concern .
+i.e Html file --> Content
+    Css file --> Presentation
+    JS file --> Behaviour
+
+i.e <input type="button" id="btn" onclick="alert('Test')" />
+This is not obstrusive JS because behaviour and presentation are mixed .
+The onclick shouldn't be there in html and should be part of javascript itself not html.
+
+With above example, you can go unobstrusive like this:
+<input type="button" id="btn" />
+
+Js Code:
+var el = document.getElementById('btn');
+el.onclick = function(){
+  alert('Test');
+};
+
+Advantage: it separates your concerns, keeps your code clean,
+ and allows you to work on the JavaScript without touching either HTML or CSS.
