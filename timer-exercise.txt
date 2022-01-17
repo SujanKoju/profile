@@ -24,7 +24,7 @@ output : alert(y(2,3));  Alert display will appear with value 6
 3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
 says “BOOYAH!”
 setTimeout(booyah1, 2000);
-setTimeout(booyah2(), 2000);
+setTimeout(booyah2(), 2000); a
 
 booyah1(){
 alert("BOOYAH");
