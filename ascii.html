@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Viewer</title>
+    <link href="css/ascii.css" rel="stylesheet">
+    <script src="js/animations.js"></script>
+    <script src="js/ascii.js"></script>
+</head>
+<body>
+<h1 id="heading">CS472: ASCII Animation Viewer</h1>
+<textarea id="text-area" rows="20" cols="80"> </textarea>
+<div id="field-sets">
+    <fieldset>
+        <legend>Play Controls:</legend>
+        <input type="button" id="start-button" value="Start"/>
+        <input type="button" id="stop-button" value="Stop"/>
+    </fieldset>
+
+    <fieldset>
+        <legend>Animation:</legend>
+        <select id="animation" name="animation">
+            <option value="blank" selected>Blank</option>
+            <option value="exercise">Exercise</option>
+            <option value="juggler">Juggler</option>
+            <option value="bike">Bike</option>
+            <option value="dive">Dive</option>
+            <option value="custom">Custom</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Size:</legend>
+        <select id="size" name="size">
+            <option value="tiny">Tiny</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+            <option value="extra-large">Extra Large</option>
+            <option value="xxl">XXL</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Speed</legend>
+        <input type="checkbox" id="turbo" name="turbo"/>
+        <label for="turbo">Turbo</label>
+    </fieldset>
+</div>
+</body>
+</html>
