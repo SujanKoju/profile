@@ -4,6 +4,7 @@
     <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ascii.html" beforeDir="false" afterPath="$PROJECT_DIR$/ascii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ascii.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ascii.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/ascii.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ascii.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/HW8-main" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -60,6 +61,8 @@
       <workItem from="1642369131657" duration="465000" />
       <workItem from="1642452469458" duration="7771000" />
       <workItem from="1642472178566" duration="2376000" />
+      <workItem from="1642525704163" duration="5188000" />
+      <workItem from="1642534538416" duration="4288000" />
     </task>
     <servers />
   </component>
@@ -76,5 +79,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/ascii.js</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/ascii.js</url>
+          <line>31</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
