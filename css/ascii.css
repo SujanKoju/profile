@@ -10,7 +10,8 @@ body {
     justify-content: center;
 }
 fieldset{
-    border-color: black;
+    border: 5px solid black;
+    margin: 5px;
 }
 textarea{
     display: block;
@@ -27,4 +28,7 @@ textarea {
     height: 400px;
     font-size: 12pt;
     font-family: monospace, "sans-serif";
+}
+.w3c-buttons{
+    float: right;
 }
