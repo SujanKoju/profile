@@ -32,7 +32,7 @@ let AccountModule = (function () {
 
 
 function closureAndModuleExample() {
-    document.getElementById("output").innerHTML += "    !";
+    document.getElementById("output").innerHTML += "Rudy!";
 }
 let rudyTimer = (function () {
     let timer = null;
