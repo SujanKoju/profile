@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/closure-and-module-example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/closure-and-module-example.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ascii.html" beforeDir="false" afterPath="$PROJECT_DIR$/ascii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ascii.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ascii.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ascii.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ascii.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,10 @@
       <workItem from="1642452469458" duration="7771000" />
       <workItem from="1642472178566" duration="2376000" />
       <workItem from="1642525704163" duration="5188000" />
-      <workItem from="1642534538416" duration="4288000" />
+      <workItem from="1642534538416" duration="4385000" />
+      <workItem from="1642538974180" duration="13000" />
+      <workItem from="1642539445308" duration="834000" />
+      <workItem from="1642544167379" duration="3657000" />
     </task>
     <servers />
   </component>
@@ -86,13 +89,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/ascii.js</url>
           <line>29</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/ascii.js</url>
           <line>31</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
