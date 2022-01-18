@@ -5,10 +5,16 @@ function animationChange() {
     let animationDropBox = document.getElementById("animation");
     let selected = animationDropBox.value;
     if (selected === 'blank') textArea.innerHTML = '';
-    if (selected === 'exercise')textArea.innerHTML = EXERCISE;
-    if (selected === 'juggler')textArea.innerHTML = JUGGLER;
-    if (selected === 'bike')textArea.innerHTML = BIKE;
-    if (selected === 'dive')textArea.innerHTML = DIVE;
+    if (selected === 'exercise') textArea.innerHTML = EXERCISE;
+    if (selected === 'juggler') textArea.innerHTML = JUGGLER;
+    if (selected === 'bike') textArea.innerHTML = BIKE;
+    if (selected === 'dive') textArea.innerHTML = DIVE;
+}
+
+function sizeDropBoxChange() {
+    let textArea = document.getElementById("text-area");
+    let sizeDropBox = document.getElementById("size");
+    textArea.style.fontSize = sizeDropBox.value;
 }
 
 function initializeAllHandlers() {
@@ -20,51 +26,55 @@ function initializeAllHandlers() {
 
     let animationDropBox = document.getElementById("animation");
     animationDropBox.onchange = animationChange;
+
+    let sizeDropBox = document.getElementById("size");
+    sizeDropBox.onchange = sizeDropBoxChange;
 }
-    function showFrame(frame) {
-        let textArea = document.getElementById("text-area");
-        textArea.innerHTML = frame;
-    }
 
-    function startAnimating(exercise) {
-        for (let i = 0; i < exercise.length; i++) {
-            setTimeout(showFrame, 250 * i, exercise[i]);
+function showFrame(frame) {
+    let textArea = document.getElementById("text-area");
+    textArea.innerHTML = frame;
+}
+
+function startAnimating(exercise) {
+    for (let i = 0; i < exercise.length; i++) {
+        setTimeout(showFrame, 250 * i, exercise[i]);
+    }
+}
+
+function startAnimation() {
+    let textArea = document.getElementById("text-area");
+
+    let selectedAnimation = document.getElementById("animation").value;
+
+    switch (selectedAnimation) {
+        case 'blank':
+            textArea.innerHTML = "";
+            break
+        case 'exercise': {
+            let exercise = EXERCISE.split("=====\n");
+            startAnimating(exercise);
+            break;
         }
+
+        case 'juggler':
+            let juggler = JUGGLER.split("=====\n");
+            startAnimating(juggler);
+            break
+        case 'bike':
+            let bike = BIKE.split("=====\n");
+            startAnimating(bike);
+            break
+        case 'dive':
+            let dive = DIVE.split("=====\n");
+            startAnimating(dive);
+            break
+        default:
+            textArea.innerHTML = "Custom";
     }
+}
 
-    function startAnimation() {
-        let textArea = document.getElementById("text-area");
-
-        let selectedAnimation = document.getElementById("animation").value;
-
-        switch (selectedAnimation) {
-            case 'blank':
-                textArea.innerHTML = "";
-                break
-            case 'exercise': {
-                let exercise = EXERCISE.split("=====\n");
-                startAnimating(exercise);
-                break;
-            }
-
-            case 'juggler':
-                let juggler = JUGGLER.split("=====\n");
-                startAnimating(juggler);
-                break
-            case 'bike':
-                let bike = BIKE.split("=====\n");
-                startAnimating(bike);
-                break
-            case 'dive':
-                let dive = DIVE.split("=====\n");
-                startAnimating(dive);
-                break
-            default:
-                textArea.innerHTML = "Custom";
-        }
-    }
-
-    function stopAnimation() {
-        let textArea = document.getElementById("text-area");
-        textArea.innerHTML = "";
-    }
+function stopAnimation() {
+    let textArea = document.getElementById("text-area");
+    textArea.innerHTML = "";
+}
