@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/js/closure-and-module-example.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/closure-and-module-example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timer-exercise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/timer-exercise.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,8 @@
       <workItem from="1642534538416" duration="4385000" />
       <workItem from="1642538974180" duration="13000" />
       <workItem from="1642539445308" duration="834000" />
-      <workItem from="1642544167379" duration="3980000" />
+      <workItem from="1642544167379" duration="4730000" />
+      <workItem from="1642610589070" duration="80000" />
     </task>
     <servers />
   </component>

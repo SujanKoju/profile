@@ -2,8 +2,10 @@
 setTimeout(booyah, 2000);
 setTimeout(booyah(), 2000);
 
-a.setTimeout(booyah, 2000);  =  the function booyah will be executed instantly instead of being executed after 2000ms
-b.setTimeout(booyah(), 2000); = the function booyah will be executed after 2000ms as expected
+a.setTimeout(booyah, 2000);  =   the function booyah will be executed after 2000ms as expected
+b.setTimeout(booyah(), 2000); = the function booyah will be executed instantly ,and the return type of booyah will be executed after 2000ms
+instead of being executed after 2000ms
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
