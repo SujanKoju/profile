@@ -1,5 +1,5 @@
 body{
-    background-image:url(../img/background.png);
+    background-image:url(../resources/img/background.png);
     font-size: 8pt;
     font-family: Verdana, Tahoma , sans-serif;
 }
@@ -84,13 +84,13 @@ img.reviewer{
     width: 50%;
 }
 .review-top{
-    background-image: url(../img/rbg.png);
+    background-image: url(../resources/img/rbg.png);
     background-repeat: repeat-x;
     display: flex;
 }
 
 .banner-top{
-    background-image: url(../img/bannerbg.png);
+    background-image: url(../resources/img/bannerbg.png);
     background-repeat: repeat-x;
     display: flex;
 }

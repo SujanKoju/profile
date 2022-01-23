@@ -4,7 +4,7 @@ form{
     padding: 1em;
 }
 body{
-    background-image: url("../img/grade-back.jpg");
+    background-image: url("../resources/img/grade-back.jpg");
 }
 input{
     margin: 8px;

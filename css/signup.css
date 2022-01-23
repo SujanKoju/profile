@@ -5,7 +5,7 @@ form{
 }
 
 body{
-    background-image: url("../img/signup-background.svg");
+    background-image: url("../resources/img/signup-background.svg");
 }
 .red-font-text{
     color: red;
