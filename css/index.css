@@ -4,7 +4,7 @@ body{
 
 form{
     margin: 0px auto;
-    width: 40%;
+    width: 50%;
     padding: 2em;
     background-color: rgb(247, 247, 162);
 }
@@ -39,4 +39,7 @@ img#profile-pic{
 }
 .user-name{
     text-align: center;
+}
+#labs-hidden{
+    visibility: hidden;
 }
