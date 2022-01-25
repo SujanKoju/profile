@@ -3,6 +3,18 @@ $(document).ready(function () {
 
     $("#puzzlearea div").click(puzzleClickHandler);
     $("#puzzlearea div").hover(hoverHandler);
+    $("#puzzlearea div").mouseleave(mouseOverHandler);
+    $("#shufflebutton").click(shuffleClickHandler)
+
+    function shuffleClickHandler() {
+       $("puzzlearea div").each(function (index,element){
+
+       })
+    }
+
+    function mouseOverHandler() {
+        $(this).removeClass("movablepiece");
+    }
 
     function hoverHandler() {
         let tempX = $(this).data("x");
