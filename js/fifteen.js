@@ -6,43 +6,6 @@ $(document).ready(function () {
     $("#puzzlearea div").mouseleave(mouseOverHandler);
     $("#shufflebutton").click(shuffleClickHandler)
 
-    function shuffleClickHandler() {
-       $("puzzlearea div").each(function (index,element){
-
-       })
-    }
-
-    function mouseOverHandler() {
-        $(this).removeClass("movablepiece");
-    }
-
-    function hoverHandler() {
-        let tempX = $(this).data("x");
-        let tempY = $(this).data("y");
-        if (currentBlockIsNeighbourToEmptyBlock(tempX, tempY)) {
-            $(this).addClass("movablepiece");
-        }
-    }
-
-    function currentBlockIsNeighbourToEmptyBlock(tempX, tempY) {
-        if (tempX === emptySquare.row && (tempY + 100 === emptySquare.column || tempY - 100 === emptySquare.column)) return true;
-        else if (tempY === emptySquare.column && (tempX + 100 === emptySquare.row || tempX - 100 === emptySquare.row)) return true;
-        else return false;
-    }
-
-    function puzzleClickHandler() {
-        let tempX = $(this).data("x");
-        let tempY = $(this).data("y");
-        if (currentBlockIsNeighbourToEmptyBlock(tempX, tempY)) {
-            $(this).css("left", emptySquare.row + "px");
-            $(this).css("top", emptySquare.column + "px");
-            $(this).data("x", emptySquare.row);
-            $(this).data("y", emptySquare.column);
-            emptySquare.row = tempX;
-            emptySquare.column = tempY;
-        }
-    }
-
     let init = function () {
         // initialize each piece
         $("#puzzlearea div").each(function (index, element) {
@@ -62,5 +25,53 @@ $(document).ready(function () {
     };
     init();
 
+    function shuffleClickHandler() {
+        let $elements =$("#puzzlearea div");
+        let temp = $elements.get();
+        temp = temp.sort(function() {
+            return Math.round( Math.random() ) - 0.5;
+        });
+        temp.forEach(function( element, index ) {
+            $elements[ index ] = element;
+        });
+        $elements.each(function () {
+            let tempX = $(this).data("x");
+            let tempY = $(this).data("y");
+            $(this).css("left", emptySquare.row + "px");
+            $(this).css("top", emptySquare.column + "px");
+            $(this).data("x", emptySquare.row);
+            $(this).data("y", emptySquare.column);
+            emptySquare.row = tempX;
+            emptySquare.column = tempY;
+        });
+    }
 
+    function mouseOverHandler() {
+        $(this).removeClass("movablepiece");
+    }
+
+    function hoverHandler() {
+        let tempX = $(this).data("x");
+        let tempY = $(this).data("y");
+        if (currentBlockIsNeighbourToEmptyBlock(tempX, tempY)) {
+            $(this).addClass("movablepiece");
+        }
+    }
+
+    function currentBlockIsNeighbourToEmptyBlock(tempX, tempY) {
+        if (tempX === emptySquare.row && (tempY + 100 === emptySquare.column || tempY - 100 === emptySquare.column)) return true; else if (tempY === emptySquare.column && (tempX + 100 === emptySquare.row || tempX - 100 === emptySquare.row)) return true; else return false;
+    }
+
+    function puzzleClickHandler() {
+        let tempX = $(this).data("x");
+        let tempY = $(this).data("y");
+        if (currentBlockIsNeighbourToEmptyBlock(tempX, tempY)) {
+            $(this).css("left", emptySquare.row + "px");
+            $(this).css("top", emptySquare.column + "px");
+            $(this).data("x", emptySquare.row);
+            $(this).data("y", emptySquare.column);
+            emptySquare.row = tempX;
+            emptySquare.column = tempY;
+        }
+    }
 });
