@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/fifteen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/fifteen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fifteen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/jQueryQuizII.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/profile.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/profile.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/fifteen.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fifteen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,8 @@
       <workItem from="1642859575196" duration="156000" />
       <workItem from="1642882061361" duration="3396000" />
       <workItem from="1642949001720" duration="3291000" />
-      <workItem from="1643053920034" duration="871000" />
+      <workItem from="1643053920034" duration="8726000" />
+      <workItem from="1643077436145" duration="1733000" />
     </task>
     <servers />
   </component>
