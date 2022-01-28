@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/Node-Exercises.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="84a93731-5bb6-4910-9bb6-6aa870e1017f" name="Changes" comment="ghjghj">
+      <change afterPath="$PROJECT_DIR$/resources/Simple Calculator.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/myModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/node-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/node-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/SimpleAdder.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SimpleAdder.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,7 +103,21 @@
       <workItem from="1643305347582" duration="3980000" />
       <workItem from="1643309481899" duration="117000" />
       <workItem from="1643309612920" duration="272000" />
+      <workItem from="1643314091866" duration="159000" />
+      <workItem from="1643324717291" duration="28000" />
+      <workItem from="1643399979648" duration="61000" />
+      <workItem from="1643402843010" duration="1862000" />
+      <workItem from="1643404842506" duration="1245000" />
+      <workItem from="1643407272698" duration="404000" />
     </task>
+    <task id="LOCAL-00001" summary="ghjghj">
+      <created>1643314152397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643314152397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +133,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ghjghj" />
+    <option name="LAST_COMMIT_MESSAGE" value="ghjghj" />
   </component>
 </project>
